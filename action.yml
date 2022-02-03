@@ -4,5 +4,5 @@ branding:
   color: 'red'
 description: "Build a Jekyll site."
 runs:
-  using: "node12"
-  post: "./post.ts"
+  using: "docker"
+  image: "docker://ghcr.io/Tyler887/JekyllBuild"
