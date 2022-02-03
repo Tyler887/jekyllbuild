@@ -1,0 +1,8 @@
+name: "Jekyll - Build"
+branding:
+  icon: 'box'
+  color: 'red'
+description: "Build a Jekyll site."
+runs:
+  using: "node12"
+  post: "./post.ts"
