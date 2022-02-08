@@ -54,4 +54,4 @@ inputs:
     default: ${{ github.token }}
 runs:
   using: "docker"
-  image: "docker://ghcr.io/Tyler887/jekyllbuild"
+  image: "Dockerfile"
