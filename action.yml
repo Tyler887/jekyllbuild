@@ -2,7 +2,7 @@ name: "Jekyll - Builder"
 branding:
   icon: 'box'
   color: 'red'
-description: "Build a Jekyll site."
+description: "Build a Jekyll site with integration with the pages-gem."
 inputs:
 
   source:
@@ -54,4 +54,4 @@ inputs:
     default: ${{ github.token }}
 runs:
   using: "docker"
-  image: "docker://ghcr.io/Tyler887/JekyllBuild"
+  image: "docker://ghcr.io/Tyler887/jekyllbuild"
